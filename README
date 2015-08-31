@@ -2,8 +2,9 @@
 所以单独立了个项目备份一下
 
 USAGE:
-
-    >>> f = DFAFilter()
+    
+    >>> import filter
+    >>> f = filter.DFAFilter()
     >>> f.add("sexy")
     >>> f.filter("hello sexy baby")
     hello **** baby
